@@ -10,6 +10,7 @@ build/
 # Hardhat files
 cache/
 artifacts/
+typechain-types/
 
 # Environment variables
 .env
@@ -32,3 +33,11 @@ logs/
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+# Markdown documentation (exclude from repo except README)
+HARDHAT_GUIDE.md
+QUICKSTART.md
+SETUP_COMPLETE.md
+
+# Hardhat Ignition
+ignition/deployments/chain-*
