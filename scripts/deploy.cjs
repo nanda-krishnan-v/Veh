@@ -12,16 +12,16 @@ async function main() {
   await carRegistry.waitForDeployment();
 
   const address = await carRegistry.getAddress();
-  
+
   console.log("✅ CarRegistry deployed to:", address);
 
   // Write deployment info to JSON
   const deploymentInfo = {
     address: address,
     network: hre.network.name,
-    timestamp: new Date().toISOString()
+    timestamp: new Date().toISOString(),
   };
-  
+
   const deploymentPath = path.join(__dirname, "..", "deployment.json");
   fs.writeFileSync(deploymentPath, JSON.stringify(deploymentInfo, null, 2));
   console.log("💾 Deployment info saved to deployment.json");
