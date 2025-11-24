@@ -1,4 +1,4 @@
-# 🚗 Digital Car Registry DApp
+# Veh -  Digital Car Registry DApp
 
 A beautiful, full-stack decentralized application for managing a digital car registry on the blockchain. Built with React, Solidity, Ethers.js, and Tailwind CSS.
 
@@ -168,3 +168,4 @@ Contributions, issues, and feature requests are welcome!
 ---
 
 Built with ❤️ using React, Solidity, and Web3
+
