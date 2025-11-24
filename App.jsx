@@ -137,7 +137,7 @@ const CAR_REGISTRY_ABI = [
 ];
 
 // Default local Hardhat deployment address
-const CONTRACT_ADDRESS = "0xe7f1725E7734CE288F8367e1Bb143E90bb3F0512";
+const CONTRACT_ADDRESS = "0x5FbDB2315678afecb367f032d93F642f64180aa3";
 const HARDHAT_NETWORK_ID = "31337"; // Default Hardhat chain ID
 
 // ============================================================================
