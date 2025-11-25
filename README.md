@@ -1,6 +1,12 @@
-# Veh -  Digital Car Registry DApp
+# Veh - Digital Car Registry DApp
 
 A beautiful, full-stack decentralized application for managing a digital car registry on the blockchain. Built with React, Solidity, Ethers.js, and Tailwind CSS.
+
+## 📸 Sample UI
+
+![VEH Registry Sample UI](https://github.com/nanda-krishnan-v/Veh/assets/sample-ui.png)
+
+_The VEH Registry dashboard features a modern dark theme with animated background, showing the car registration form and the list of registered vehicles on the blockchain._
 
 ## ✨ Features
 
@@ -78,7 +84,7 @@ The application will open at `http://localhost:3000`
 ## 🎯 How to Use
 
 1. **Connect Wallet**: Click "Connect Wallet" button in the header
-2. **Register a Car**: 
+2. **Register a Car**:
    - Enter the owner's name
    - Enter the car model
    - Click "Register Car"
@@ -139,16 +145,19 @@ function getAllCars() public view returns (Car[] memory)
 ## 📝 Common Issues
 
 ### Transaction Fails
+
 - Ensure you're connected to the Hardhat network (Chain ID: 31337)
 - Check that the contract address is correct in App.jsx
 - Verify you have sufficient test ETH
 
 ### Can't Connect Wallet
+
 - Install Metamask extension
 - Add Hardhat network to Metamask
 - Import a test account from Hardhat node
 
 ### Contract Not Found
+
 - Make sure Hardhat node is running
 - Verify contract is deployed
 - Check the contract address matches
@@ -168,4 +177,3 @@ Contributions, issues, and feature requests are welcome!
 ---
 
 Built with ❤️ using React, Solidity, and Web3
-
