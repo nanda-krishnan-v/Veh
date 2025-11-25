@@ -4,7 +4,7 @@ A beautiful, full-stack decentralized application for managing a digital car reg
 
 ## 📸 Sample UI
 
-![VEH Registry Sample UI Dashboard](https://github.com/nanda-krishnan-v/Veh/assets/sample-ui.png)
+![VEH Registry Sample UI Dashboard](./assets/sample-ui.png)
 
 _The VEH Registry dashboard features a modern dark theme with animated background, showing the car registration form and the list of registered vehicles on the blockchain._
 
